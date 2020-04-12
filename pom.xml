@@ -14,6 +14,13 @@
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
         </developer>
+        <developer>
+            <id>ST1G1M8</id>
+            <name>Máté Stiegelmayer</name>
+            <email>stigimate@gmail.com</email>
+            <organization>Faculty of Informatics, University of Debrecen</organization>
+            <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
+        </developer>
     </developers>
     <scm>
         <url>https://github.com/jeszy75/jdbi-examples</url>
@@ -28,6 +35,12 @@
         <exec.cleanupDaemonThreads>false</exec.cleanupDaemonThreads>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>compile</scope>
+        </dependency>
         <dependency>
             <groupId>org.jdbi</groupId>
             <artifactId>jdbi3-core</artifactId>
